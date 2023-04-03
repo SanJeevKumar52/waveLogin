@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    background-color: wheat;
+} */
+
+#contact{
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 40px;
+    color: wheat;
+}
+
+#contact-container{
+    display: flex;
+
+}
+
+#contact-form{
+  margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#contact-form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#my-details-container h3{
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+#contact-form-container {
+    width: 50%;
+}
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+.my-details-info-container i {
+    color: white;
+   
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+#contact-form button:hover {
+    background: black;
+    color:wheat;
+}
+
+#contact .social-icons li a i {
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.horizontal-list li a:hover{
+    color: wheat;
+}

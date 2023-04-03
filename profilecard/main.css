@@ -1,0 +1,130 @@
+* {
+  Margin: 0;
+  Padding: 0;
+  Box-Sizing: Border-Box;
+}
+
+Body {
+  Font-Family: 'Times New Roman', Times, Serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  Background: Linear-Gradient(blue 23%, #03a9f4 45%, wheat 45%, #Fff 100%);
+}
+
+.Card {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  Background: #Fff;
+  Border-Radius: 20px;
+  Background: Rgba(255, 255, 255, 0.1);
+  Border-Top: 1px Solid Rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 15px 25px;
+}
+
+.Img-Bx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  Border-Radius: 1rem;
+  Overflow: Hidden;
+  Transform: TranslateY(30px) scale(0.5);
+  transform-origin: top;
+}
+
+.Img-Bx Img {
+  Position: Absolute;
+  top: 0;
+  Left: 0;
+  Width: 100%;
+  Height: 100%;
+  Object-Fit: Cover;
+}
+
+.Content {
+  Position: Absolute;
+  Width: 100%;
+  Height: 100%;
+  Display: Flex;
+  Justify-Content: Center;
+  Align-Items: Flex-End;
+  Padding-Bottom: 50px;
+}
+
+.Content .Detail {
+  Display: Flex;
+  Justify-Content: Center;
+  Align-Items: Center;
+  Flex-Direction: Column;
+  Text-Align: Center;
+}
+
+.Content .Detail H2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  Color: black;
+  Font-Size: 1.8em;
+  Font-Weight: Bolder;
+  text-shadow: 1px 0.5px blue;
+}
+
+.Content .Detail H2 Span {
+  Font-Size: 0.7em;
+  Color: #03a9f4;
+  Font-Weight: Bold;
+}
+
+.Sci {
+  Position: Relative;
+  Display: Flex;
+  Margin-Top: 5px;
+}
+
+.Sci Li {
+  List-Style: None;
+  Margin: 4px;
+}
+
+.Sci Li A {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  Justify-Content: Center;
+  align-items: center;
+  border-radius: 1rem;
+  Background: Transparent;
+  Font-Size: 1.5em;
+  Color: white;
+  text-decoration: none;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.5s ease-in-out;
+}
+
+.Sci Li A:hover {
+  background-color: orange;
+  color: white;
+}
+
+.facebook {
+  background-color: #3b5998;
+  border-radius: 1rem;
+}
+
+.twitter {
+  background-color: #00acee;
+  border-radius: 1rem;
+}
+
+.linkdin {
+  background-color: #0072b1;
+  border-radius: 1rem;
+}
+
+.insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-radius: 1rem;
+}
